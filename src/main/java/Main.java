@@ -32,14 +32,15 @@ public class Main {
                 case 2:
                     Nave n = new NaveNoTripulada();
                     n.nombre();
-                    n.SubirTripulantes();
+                    n.EngineState();
                     n.mision();
                     break;
 
                 case 3:
-                    Nave NaveT = new NaveTripulada();
+                    NaveTripulada NaveT = new NaveTripulada();
                     NaveT.nombre();
                     NaveT.SubirTripulantes();
+                    NaveT.CantidadTripulantes();
                     NaveT.mision();
 
 

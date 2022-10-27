@@ -1,7 +1,6 @@
 public abstract class Nave {
 
     private String name;
-    public Nave(){}
 
     public void SubirTripulantes(){
         System.out.println("Los Tripulantes se subieron");

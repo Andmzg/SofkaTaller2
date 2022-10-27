@@ -13,8 +13,9 @@ public class NaveTripulada extends Nave implements Tripulacion {
         System.out.println("Motores apagado");
     }
 
+
     @Override
-    public void tripulantes() {
-        Tripulacion.super.tripulantes();
+    public void CantidadTripulantes() {
+        System.out.println("Hay un total de tres tripulantes");
     }
 }

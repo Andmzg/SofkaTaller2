@@ -10,6 +10,6 @@ public class NaveNoTripulada extends Nave {
     }
 
     public void EngineState() {
-        System.out.println("Motores Apagado");
+        System.out.println("Estado del motor: Motores Apagado");
     }
 }
