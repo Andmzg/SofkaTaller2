@@ -1,6 +1,6 @@
-public class NaveTripulada extends Nave {
+public class NaveTripulada extends Nave implements Tripulacion {
 
-    public NaveTripulada(){
+    public NaveTripulada() {
         super();
         setName("Stralus68");
     }
@@ -11,5 +11,10 @@ public class NaveTripulada extends Nave {
 
     public void EngineState() {
         System.out.println("Motores apagado");
+    }
+
+    @Override
+    public void tripulantes() {
+        Tripulacion.super.tripulantes();
     }
 }
